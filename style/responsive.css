@@ -1,0 +1,17 @@
+@media(min-width:37.5rem){
+    .card {
+        display: flex;
+        width: 60rem;
+    }
+    .card_image{
+        width: 50% !important;
+    }
+    .card_image picture img {
+display: block;
+    }
+    .card_content{
+        width: 30rem;
+        background-color: deeppink;
+    }
+
+}

@@ -45,7 +45,7 @@ main {
 }
 .card .card_image {
   width: 100%;
-  height: 30rem;
+  height: auto;
   overflow: hidden;
   /* display: none;   */
 }
