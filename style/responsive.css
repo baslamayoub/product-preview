@@ -1,17 +1,22 @@
-@media(min-width:37.5rem){
-    .card {
-        display: flex;
-        width: 60rem;
-    }
-    .card_image{
-        width: 50% !important;
-    }
-    .card_image picture img {
-display: block;
-    }
-    .card_content{
-        width: 30rem;
-        background-color: deeppink;
-    }
+@media (min-width: 37.5rem) {
+  .card {
+    display: flex;
+    width: 60rem;
+  }
+  .card_image,
+  .card_content {
+    flex: 1 !important;
+    height: auto !important;
+    /* overflow: visible !important; */
+  }
 
+  .card_image picture,
+  .card_image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .card_image img {
+    object-fit: cover;
+  }
 }
