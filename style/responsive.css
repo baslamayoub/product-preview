@@ -3,11 +3,10 @@
     display: flex;
     width: 60rem;
   }
-  .card_image,
-  .card_content {
-    flex: 1 !important;
-    height: auto !important;
-    /* overflow: visible !important; */
+  .card .card_image,
+  .card .card_content {
+    flex: 0 0 50%;
+    height: auto;
   }
 
   .card_image picture,
