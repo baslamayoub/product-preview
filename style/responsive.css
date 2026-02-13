@@ -1,4 +1,7 @@
 @media (min-width: 37.5rem) {
+  main {
+    margin: 0;
+  }
   .card {
     display: flex;
     width: 60rem;
